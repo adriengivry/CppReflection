@@ -1,0 +1,37 @@
+<field>
+	<name>person</name>
+	<type>class Person</type>
+	<fields>
+		<field>
+			<name>m_age</name>
+			<type>int</type>
+			<value>12</value>
+		</field>
+		<field>
+			<name>m_gender</name>
+			<type>bool</type>
+			<value>1</value>
+		</field>
+		<field>
+			<name>m_address</name>
+			<type>struct Address</type>
+			<fields>
+				<field>
+					<name>m_street</name>
+					<type>string</type>
+					<value>Rue Sainte Catherine</value>
+				</field>
+				<field>
+					<name>m_number</name>
+					<type>int</type>
+					<value>1200</value>
+				</field>
+			</fields>
+		</field>
+		<field>
+			<name>name</name>
+			<type>string</type>
+			<value>John</value>
+		</field>
+	</fields>
+</field>
